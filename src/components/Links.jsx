@@ -4,13 +4,13 @@ import DynamicIcon from "./DynamicIcon";
 
 export const Links = () => {
   return (
-    <div className="h-3/5 grid grid-row-1 w-8/12 gap-y-2 text-white">
+    <div className="grid grid-row-1 w-8/12 gap-y-2 text-white">
       {linksData.map((value, index) => {
         return (
           <div
             key={index}
             className={
-              "text-white w-full flex justify-around items-center bg-[#222]  h-12 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
+              "h-12 text-white w-full flex justify-around items-center bg-[#222] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer"
             }
           >
             <span
