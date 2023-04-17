@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import linksData from "../links.js";
 import DynamicIcon from "./DynamicIcon";
 import ShareModal from "./ShareModal";
+import { IoShareOutline } from "react-icons/io5";
 
 export const Links = () => {
   const [open, setOpen] = useState(false);
   const [url, setUrl] = useState("");
+  const [title, setTitle] = useState("");
 
   return (
     <>
@@ -13,7 +15,7 @@ export const Links = () => {
         url={url}
         show={open}
         onClose={() => setOpen(!open)}
-        title="Subscribe to our newsletter"
+        title={title}
       />
       <div className="grid grid-row-1 w-8/12 gap-y-2 text-white">
         {linksData.map((value, index) => {
@@ -42,13 +44,12 @@ export const Links = () => {
               <span
                 className={"flex w-1/5 items-center justify-center"}
                 onClick={() => {
+                  setTitle(value.title);
                   setOpen(!open);
                   setUrl(value.link);
                 }}
               >
-                <span className="material-icons w-1/5 hover:text-gray-400">
-                  ios_share
-                </span>
+                <IoShareOutline className="w-1/5 hover:text-gray-400" />
               </span>
             </div>
           );
