@@ -42,14 +42,16 @@ export const Links = () => {
                 </span>
               </a>
               <span
-                className={"flex w-1/5 items-center justify-center"}
+                className={
+                  "flex w-1/5 items-center justify-center hover:text-gray-400 text-center"
+                }
                 onClick={() => {
                   setTitle(value.title);
                   setOpen(!open);
                   setUrl(value.link);
                 }}
               >
-                <IoShareOutline className="w-1/5 hover:text-gray-400" />
+                <IoShareOutline size={24} />
               </span>
             </div>
           );

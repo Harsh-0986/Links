@@ -6,7 +6,7 @@ export const Header = () => {
       <div></div>
       <div className="text-md lg:text-xl m-auto p-4 lg:p-8 rounded-full">
         <img
-          src={"https://media.graphassets.com/Zh6xzCOnQmCxpXFeRaPj"}
+          src={"/favicon.webp"}
           className={" w-32 lg:w-48 h-32 lg:h-48"}
           alt={"Harsh Shah"}
         />
