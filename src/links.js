@@ -19,5 +19,15 @@ const linksData = [
     title: "Twitter",
     link: "https://twitter.com/Harsh_Shah2102",
   },
+   {
+    icon: "GiShoulderArmor",
+    title: "BeFit",
+    link: "https://befit.harshshah.codes/",
+  },
+  {
+    icon: "BsFileEarmarkBreakFill",
+    title: "Markdownify Notes",
+    link: "https://markdownify-notes.vercel.app/",
+  },
 ];
 export default linksData;
