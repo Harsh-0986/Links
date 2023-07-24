@@ -1,11 +1,9 @@
-import * as bsIcons from "react-icons/bs";
-import * as giIcons from 'react-icons/gi'
+import * as faIcons from "react-icons/fa6";
 
 const DynamicIcon = ({ icon, className }) => {
   const getIcon = (iconName) => {
     const iconsMap = new Map();
-    iconsMap.set("Bs", bsIcons);
-    iconsMap.set("Gi", giIcons);
+    iconsMap.set("Fa", faIcons);
 
     return iconsMap.get(iconName.substring(0, 2));
   };
