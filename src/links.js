@@ -1,31 +1,31 @@
 const linksData = [
   {
-    icon: "BsGlobeCentralSouthAsia",
+    icon: "FaGlobe",
     title: "Website",
     link: "https://about.harshshah.codes",
   },
   {
-    icon: "BsNewspaper",
+    icon: "FaNewspaper",
     title: "Blog",
     link: "https://harshshah.codes",
   },
   {
-    icon: "BsInstagram",
+    icon: "FaInstagram",
     title: "Instagram",
     link: "https://www.instagram.com/harsh2102._",
   },
   {
-    icon: "BsTwitter",
+    icon: "FaTwitter",
     title: "Twitter",
     link: "https://twitter.com/Harsh_Shah2102",
   },
    {
-    icon: "GiShoulderArmor",
+    icon: "FaDumbbell",
     title: "BeFit",
     link: "https://befit.harshshah.codes/",
   },
   {
-    icon: "BsFileEarmarkBreakFill",
+    icon: "FaFileInvoice",
     title: "Markdownify Notes",
     link: "https://markdownify-notes.vercel.app/",
   },
