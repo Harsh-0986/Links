@@ -29,5 +29,10 @@ const linksData = [
     title: "Markdownify Notes",
     link: "https://markdownify-notes.vercel.app/",
   },
+  {
+    icon: "FaBrain",
+    title: "Sumz",
+    link: "https://sumz.harshshah.codes",
+  }
 ];
 export default linksData;
