@@ -33,6 +33,21 @@ const linksData = [
     icon: "FaBrain",
     title: "Sumz",
     link: "https://sumz.harshshah.codes",
+  },
+  {
+    icon: "FaMusic",
+    title: "Soundbyte",
+    link: "https://soundbyte-v2.vercel.app"
+  },
+  {
+    icon: "FaQuestion",
+    title: "Take a quiz",
+    link: "https://trivia.harshshah.codes/"
+  },
+  {
+    icon: "FaUser",
+    title: "Snapgram",
+    link:"https://snapgram-six.vercel.app"
   }
 ];
 export default linksData;
