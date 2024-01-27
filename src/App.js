@@ -5,7 +5,7 @@ import SocialAccounts from "./components/SocialAccounts.jsx";
 
 function App() {
   return (
-    <div className="h-screen text-white flex justify-center items-center mx-auto flex-col">
+    <div className="text-white flex justify-center items-center mx-auto flex-col">
       <Header />
       <SocialAccounts />
       <Links />

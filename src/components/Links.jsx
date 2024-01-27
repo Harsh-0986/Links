@@ -17,13 +17,13 @@ export const Links = () => {
 				onClose={() => setOpen(!open)}
 				title={title}
 			/>
-			<div className="grid grid-row-1 w-8/12 gap-y-2 text-white">
+			<div className="grid grid-row-1 w-4/5 md:w-1/3 gap-y-2 text-white">
 				{linksData.map((value, index) => {
 					return (
 						<div
 							key={index}
 							className={
-								"h-12 text-white w-full flex justify-around items-center bg-[#222] rounded-lg transition ease-in-out delay-150 hover:scale-105 duration-150 cursor-pointer"
+								"h-12 hover:bg-zinc-800/60 text-white w-full flex justify-around items-center bg-zinc-800 rounded-lg cursor-pointer"
 							}
 						>
 							<span
