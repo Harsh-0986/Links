@@ -2,12 +2,12 @@ const linksData = [
   {
     icon: "FaGlobe",
     title: "Website",
-    link: "https://about.harshshah.codes",
+    link: "https://harsh-shah.vercel.app"
   },
   {
     icon: "FaNewspaper",
     title: "Blog",
-    link: "https://harshshah.codes",
+    link: "https://ultronic-blog.vercel.app",
   },
   {
     icon: "FaInstagram",
@@ -19,11 +19,11 @@ const linksData = [
     title: "Twitter",
     link: "https://twitter.com/Harsh_Shah2102",
   },
-   {
-    icon: "FaDumbbell",
-    title: "BeFit",
-    link: "https://befit.harshshah.codes/",
-  },
+   //{
+    //icon: "FaDumbbell",
+    //title: "BeFit",
+    //link: "https://befit.harshshah.codes/",
+  //},
   {
     icon: "FaFileInvoice",
     title: "Markdownify Notes",
@@ -32,7 +32,7 @@ const linksData = [
   {
     icon: "FaBrain",
     title: "Sumz",
-    link: "https://sumz.harshshah.codes",
+    link: "https://sumz-harsh-0986.vercel.app",
   },
   {
     icon: "FaMusic",
@@ -42,7 +42,7 @@ const linksData = [
   {
     icon: "FaQuestion",
     title: "Take a quiz",
-    link: "https://trivia.harshshah.codes/"
+    link: "https://get-your-trivia.vercel.app/"
   },
   {
     icon: "FaUser",
