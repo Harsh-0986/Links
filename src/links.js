@@ -2,17 +2,17 @@ const linksData = [
   {
     icon: "FaGlobe",
     title: "Website",
-    link: "https://harsh-shah.vercel.app",
+    link: "https://portfolio-2025-beige.vercel.app",
   },
   {
     icon: "FaNewspaper",
     title: "Blog",
-    link: "https://ultronic-blog.vercel.app",
+    link: "https://harshshah.is-a.dev",
   },
   {
     icon: "FaInstagram",
     title: "Instagram",
-    link: "https://www.instagram.com/harsh2102._",
+    link: "https://www.instagram.com/harshshah.codes",
   },
   {
     icon: "FaTwitter",
